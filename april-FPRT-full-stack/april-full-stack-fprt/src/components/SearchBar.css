@@ -1,0 +1,20 @@
+header {
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #0f78af;
+    margin: 5px;
+    padding: 5px;
+    /* padding-top:20px; */
+    /* padding-bottom:190px; */
+    /* font-weight: bold;  */
+}
+
+
+header img{
+    /* filter: sepia(); */
+    margin-left:0px;
+    left: 0px;
+}
+.Search_conatiner{
+    padding-top: 70px;
+}

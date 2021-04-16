@@ -1,0 +1,88 @@
+.movie_banner{
+  display:inline-block;
+  width: 220px;
+  height: 300px;
+  border-radius: 0px;
+}
+
+.movie_p_c{
+  display:inline-block;
+  margin: 20px 30px 10px 42px;
+  font-size: 18px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.backgroundWall{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  width: 100%;
+  height: 550px;
+}
+.bottomCar{
+  width: 100%;
+  height: 200px;
+}
+
+
+.movie_character{
+  display:inline-block;
+  width: 150px;
+  height: 220px;
+  transition: transform .4s;
+  border-radius: 10px;
+  box-shadow: none;
+  border: 3px solid #111;
+  transition:  transform .2s;
+}
+
+
+
+.movie_character:hover{
+  box-shadow: 0 0 25px  #111;
+  transform: scale(1.3);
+  border: 3px solid #1daeed;
+  transform: translate(0, -10px);
+}
+
+.card-img{
+  padding: 5px 5px 5px 10px;
+
+}
+.card-img:hover{
+  box-shadow: 0 0 25px  #111;
+  transform: scale(1.1);
+}
+
+ a h6{
+  color:#cccdb4 ;
+  
+}
+.movie_categories_link {
+  text-decoration: none !important ;
+  color:#cccdb4 !important;
+}
+
+
+.movie_categories_link:hover {
+  text-decoration: none !important;
+  color:#cccdb4 !important;
+}
+
+.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.main {
+ 
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.row{
+  font-size: 20px;
+  color: aliceblue;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
